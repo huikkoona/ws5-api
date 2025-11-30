@@ -93,17 +93,3 @@ npm start
 - 2:30 – 
 - 3:00 – 
 
-
-## Self-Assessment (Rubric)
-
-### Functionality – 5/5
-API deployed, CRUD works, no console errors.
-
-### Code Quality – 5/5
-Clean server structure, model, routes, .env usage.
-
-### Git & Repository Structure – 5/5
-.gitignore, README, commit history, clean files.
-
-### Deployment – 5/5
-Live URL stable on Render.
