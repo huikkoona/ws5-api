@@ -1,63 +1,109 @@
-WS5 – Movie API
+# WS5 – Movie API
 
-A simple full-stack backend project built with Node.js, Express, MongoDB Atlas, and Mongoose.
-This API allows you to create, read, update and delete (CRUD) movie entries.
+A simple backend project built with Node.js, Express, MongoDB Atlas, and Mongoose.  
+This API allows you to create, read, update, and delete (CRUD) movie entries.
 
-Live API: https://ws5-api.onrender.com
+---
 
-GitHub Repository: https://github.com/huikkoona/ws5-api
+## Live API
+https://ws5-api.onrender.com
 
-- Features
-MongoDB Atlas database connection
-Full CRUD functionality for movies
-Input validation
-CORS enabled
-REST API structure
-Deployed on Render Web Service
+## GitHub Repository
+https://github.com/huikkoona/ws5-api
 
-- API Endpoints
-Health Check
+---
+
+## Features
+- MongoDB Atlas database connection  
+- Full CRUD functionality for movies  
+- REST API structure  
+- Input validation  
+- CORS enabled  
+- Deployed on Render Web Service  
+
+---
+
+## API Endpoints
+
+### Health Check
 GET /api/health
-Get all movies
+
+### Get all movies
 GET /api/movies
-Get one movie
+
+### Get one movie by ID
 GET /api/movies/:id
-Create movie
+
+### Create movie
 POST /api/movies
-Body example:
+
+Example body:
+```json
 {
   "title": "Inception",
   "director": "Christopher Nolan",
   "year": 2010,
   "rating": 9
 }
-Update movie
+```
+
+### Update movie
 PUT /api/movies/:id
-Delete movie
+
+### Delete movie
 DELETE /api/movies/:id
 
-- How to run locally
+---
 
-macOS
+## How to run locally
 
+### macOS
 git clone https://github.com/huikkoona/ws5-api
 cd ws5-api
 npm install
 cp .env.example .env
 npm start
 
-Windows
-
+### Windows
 git clone https://github.com/huikkoona/ws5-api
 cd ws5-api
 npm install
 copy .env.example .env
 npm start
 
-- Technologies Used
-Node.js
-Express
-MongoDB Atlas
-Mongoose
-Render Web Service
-GitHub
+---
+
+## Technologies Used
+- Node.js
+- Express
+- MongoDB Atlas
+- Mongoose
+- Render Web Service
+- GitHub
+
+---
+
+## Demo video timestamps
+
+- 0:00 – 
+- 0:20 – 
+- 0:40 – 
+- 1:00 – 
+- 1:30 – 
+- 2:30 – 
+- 3:00 – 
+
+
+## Self-Assessment (Rubric)
+
+### Functionality – 5/5
+API deployed, CRUD works, no console errors.
+
+### Code Quality – 5/5
+Clean server structure, model, routes, .env usage.
+
+### Git & Repository Structure – 5/5
+.gitignore, README, commit history, clean files.
+
+### Deployment – 5/5
+Live URL stable on Render.
