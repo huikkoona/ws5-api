@@ -83,13 +83,7 @@ npm start
 
 ---
 
-## Demo video timestamps
+## Demo video
 
-- 0:00 – 
-- 0:20 – 
-- 0:40 – 
-- 1:00 – 
-- 1:30 – 
-- 2:30 – 
-- 3:00 – 
+- https://video.laurea.fi/media/Fullstack/0_ug8xwv93
 
